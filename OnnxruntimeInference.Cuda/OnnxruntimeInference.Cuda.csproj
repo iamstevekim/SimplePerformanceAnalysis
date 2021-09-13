@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>ObjectDetection.OnnxruntimeInference.Cuda</AssemblyName>
+    <RootNamespace>ObjectDetection.OnnxruntimeInference.Cuda</RootNamespace>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ML.OnnxRuntime.Gpu" Version="1.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OnnxruntimeInference\OnnxruntimeInference.csproj" />
+  </ItemGroup>
+
+</Project>
